@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>auto drive ppt show</title>
+  <!-- GitHub风格浅色/深色主题自适应 -->
+  <link rel="stylesheet" href="reveal/dist/reveal.css">
+  <link rel="stylesheet" href="reveal/dist/theme/white.css" id="theme">
+  <style>
+    /* 适配深色模式切换主题 */
+    @media (prefers-color-scheme: dark) {
+      #theme.setAttribute("href", "reveal/dist/theme/black.css");
+    }
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides" 
+       data-markdown="autodrive.md"
+       data-separator="---"
+       data-separator-vertical="--">
+  </div>
+</div>
+
+<script src="reveal/dist/reveal.js"></script>
+<script src="reveal/plugin/markdown/markdown.js"></script>
+<script>
+Reveal.initialize({
+  controls: true,
+  progress: true,
+  center: true,
+  hash: true,
+  plugins: [ RevealMarkdown ]
+});
+</script>
+</body>
+</html>
