@@ -1,139 +1,145 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jim | Personal Homepage</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jim - 技术负责人，搜索推荐、自动驾驶、具身智能，AI算法架构、大模型落地与量产交付">
+<title>Jim | Personal Homepage</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
         }
-
-        body {
-            background-color: #ffffff;
-            color: #24292f;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.65;
-            max-width: 980px;
-            margin: 0 auto;
-            padding: 40px 24px;
+html {
+scroll-behavior: smooth;
+}
+body {
+background-color: #ffffff;
+color: #24292f;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+line-height: 1.7;
+max-width: 980px;
+margin: 0 auto;
+padding: 40px 24px;
         }
-
-        h1 {
-            font-size: 32px;
-            font-weight: 600;
-            color: #111827;
-            padding-bottom: 12px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #e5e7eb;
+h1 {
+font-size: 32px;
+font-weight: 600;
+color: #111827;
+padding-bottom: 12px;
+margin-bottom: 20px;
+border-bottom: 1px solid #e5e7eb;
         }
-
-        h2 {
-            font-size: 22px;
-            font-weight: 600;
-            color: #1f2937;
-            margin: 36px 0 16px;
-            padding-bottom: 6px;
-            border-bottom: 1px solid #f3f4f6;
+h2 {
+font-size: 22px;
+font-weight: 600;
+color: #1f2937;
+margin: 36px 0 16px;
+padding-bottom: 6px;
+border-bottom: 1px solid #f3f4f6;
         }
-
-        h3 {
-            font-size: 18px;
-            font-weight: 600;
-            color: #24292f;
-            margin: 24px 0 8px;
+h3 {
+font-size: 18px;
+font-weight: 600;
+color: #24292f;
+margin: 24px 0 8px;
         }
-
-        p {
-            font-size: 15px;
-            color: #475467;
-            margin-bottom: 12px;
+p {
+font-size: 15px;
+color: #475467;
+margin-bottom: 12px;
         }
-
-        ul {
-            padding-left: 22px;
-            margin: 10px 0 16px;
+ul {
+padding-left: 22px;
+margin: 10px 0 16px;
         }
-
-        li {
-            font-size: 15px;
-            color: #344054;
-            line-height: 1.75;
-            margin-bottom: 12px;
+li {
+font-size: 15px;
+color: #344054;
+line-height: 1.75;
+margin-bottom: 12px;
         }
-
-        a {
-            color: #0969da;
-            text-decoration: none;
+a {
+color: #0969da;
+text-decoration: none;
         }
-
-        a:hover {
-            text-decoration: underline;
+a:hover {
+text-decoration: underline;
         }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 24px 16px;
+@media (max-width: 768px) {
+body {
+padding: 24px 16px;
             }
-            h1 {
-                font-size: 28px;
+h1 {
+font-size: 28px;
             }
-            h2 {
-                font-size: 20px;
+h2 {
+font-size: 20px;
             }
         }
-    </style>
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+body {
+background-color: #0d1117;
+color: #c9d1d9;
+}
+h1,h2,h3 {
+color: #f0f6fc;
+border-color: #30363d;
+}
+p, li {
+color: #b1bac4;
+}
+a {
+color: #58a6ff;
+}
+}
+</style>
 </head>
 <body>
-    <h1>Jim</h1>
-    <p>具备搜索推荐、自动驾驶、具身智能多领域全栈技术研发与团队管理经验，深耕AI算法架构升级、大模型落地、智能系统量产交付，主导多项从0到1标杆项目，擅长技术体系搭建、性能优化与规模化团队管理，拥有百人级团队统筹管理经验。</p>
+<h1>Jim</h1>
+<p>具备搜索推荐、自动驾驶、具身智能多领域全栈技术研发与团队管理经验，深耕AI算法架构升级、大模型落地、智能系统量产交付，主导多项从0到1标杆项目，擅长技术体系搭建、性能优化与规模化团队管理，拥有百人级团队统筹管理经验。</p>
+<h2>工作履历</h2>
+<h3>2026.02 - 某具身智能公司-软件负责人</h3>
+<p>全权负责具身智能人形机器人全栈软件体系研发、技术迭代与团队管理，主导多项核心技术从0到1突破及量产落地：</p>
+<ul>
+<li>实现服务机器人导航技术迭代，从零搭建激光SLAM系统并升级至VSLAM视觉导航方案，摆脱激光雷达依赖，单台设备BOM硬件成本降低4000元，成功实现商用导览场景规模化量产。</li>
+<li>重构机器人操作系统内核，搭建高内聚、低耦合的模块化软件架构，兼容轮式、双足全品类机器人产品，跨机型适配周期由30天压缩至5天，大幅提升产品迭代效率。</li>
+<li>完成人机交互系统架构重构，智能接入Agent大模型能力，将人机交互响应延迟由5s优化至1s以内，支持多语种、复杂场景智能对话交互，全面提升产品智能化体验。</li>
+<li>积累万小时级机器人自主感知、远程操控真实场景数据，搭建通用具身智能基础模型（Foundation Model），实现抓取、移动等核心任务的跨机型、跨场景泛化与能力迁移。</li>
+<li>迭代机器人运动控制Policy算法，赋能小型人形机器人实现拟人行走、动态平衡WBC、倒地自主爬起、摔倒恢复、全身远程操控、智能舞蹈等高动态运动能力，大幅提升机器人运动灵活性与环境适配性。</li>
+<li>搭建覆盖前后端开发、数据产线、AI算力基建、机器人操作系统、远程操控、智能Agent、VLA大模型、运动控制、感知导航的全栈研发团队，统筹80+人团队的人才建设与研发管理工作。</li>
+</ul>
 
-    <h2>工作履历</h2>
+<h3>2023.02～2026.02 - Momenta-DDOD/AEB技术负责人</h3>
+<p>统筹自动驾驶感知、决策规划算法研发与量产落地，主导DDOD、AEB核心场景算法迭代，全面负责技术架构升级、项目交付与团队管理工作：</p>
+<ul>
+<li>牵头完成自动驾驶感知架构跨越式升级，将传统单图后融合方案迭代为长时序多相机PV+BEV前融合架构，彻底摆脱高精地图依赖，助力整车NOA能力跻身行业第一梯队；</li>
+<li>设计R6技术架构，完成感知OneModel、DLP 障碍物避让，将算法推理耗时由500ms优化至200ms，盲区预制动、道路施工避让、近距离弱势交通参与者巡航等高危场景能力，较旧方案提升10倍以上。</li>
+<li>主导端到端自动驾驶大模型体系建设，完成模型预训练（Pretrain）与微调（SFT）全流程落地，引入千万级CLIP模型完成通用特征预训练，核心感知基础指标翻倍；创新性引入强化学习机制，基于10万级CLIP样本实现智能轨迹纠偏，整车安全性能指标提升3倍，顺利完成多主流车载芯片平台的量产适配落地。</li>
+<li>搭建完善的算法、工程、产品人才梯队，精细化管控研发流程、持续提升团队人效，打造高效落地的量产研发团队，团队规模70+人。</li>
+</ul>
+<p>📄 <a href="./career/autodrive.pdf" target="_blank">自动驾驶技术分享</a></p>
 
-    <h3>2026.2 - 某具身智能公司-软件负责人</h3>
-    <p>全权负责具身智能人形机器人全栈软件体系研发、技术迭代与团队管理，主导多项核心技术从0到1突破及量产落地：</p>
-    <ul>
-        <li>实现服务机器人导航技术迭代，从零搭建激光SLAM系统并升级至VSLAM视觉导航方案，摆脱激光雷达依赖，单台设备BOM硬件成本降低4000元，成功实现商用导览场景规模化量产。</li>
-        <li>重构机器人操作系统内核，搭建高内聚、低耦合的模块化软件架构，兼容轮式、双足全品类机器人产品，跨机型适配周期由30天压缩至5天，大幅提升产品迭代效率。</li>
-        <li>完成人机交互系统架构重构，智能接入Agent大模型能力，将人机交互响应延迟由5s优化至1s以内，支持多语种、复杂场景智能对话交互，全面提升产品智能化体验。</li>
-        <li>积累万小时级机器人自主感知、远程操控真实场景数据，搭建通用具身智能基础模型（Foundation Model），实现抓取、移动等核心任务的跨机型、跨场景泛化与能力迁移。</li>
-        <li>迭代机器人运动控制Policy算法，赋能小型人形机器人实现拟人行走、动态平衡WBC、倒地自主爬起、摔倒恢复、全身远程操控、智能舞蹈等高动态运动能力，大幅提升机器人运动灵活性与环境适配性。</li>
-        <li>搭建覆盖前后端开发、数据产线、AI算力基建、机器人操作系统、远程操控、智能Agent、VLA大模型、运动控制、感知导航的全栈研发团队，统筹80+人团队的人才建设与研发管理工作。</li>
-    </ul>
-    
+<h3>字节跳动-算法工程师</h3>
+<p>负责搜索推荐核心相关性体系搭建与迭代，主导底层NLP模块自研优化；搭建并迭代BERT深度相关性模型，持续优化CTR、CVR预估模型，全方位升级搜索召回、排序核心链路能力，有效提升全域搜索匹配精度与用户转化效果，支撑业务规模化增长。</p>
+<ul>
+<li>主导Query分析构建，支持IBWS分词、纠错、改写、Term重要性和Term紧密度</li>
+<li>参与基于Bert的深度匹配模型，对标百度基线做A/B实验，相对优势+20%</li>
+<li>参与广告CTR/CVR/DeepCVR模型的迭代和广告投放系统的构建</li>
+</ul>
+<p>📄 <a href="./career/bytedancesearch.pdf" target="_blank">搜索推荐技术分享</a></p>
 
-    <h3>2023.2～2026.2 - Momenta-DDOD/AEB技术负责人</h3>
-    <p>统筹自动驾驶感知、决策规划算法研发与量产落地，主导DDOD、AEB核心场景算法迭代，全面负责技术架构升级、项目交付与团队管理工作：</p>
-    <ul>
-        <li>牵头完成自动驾驶感知架构跨越式升级，将传统单图后融合方案迭代为长时序多相机PV+BEV前融合架构，彻底摆脱高精地图依赖，助力整车NOA能力跻身行业第一梯队；</li>
-        <li>设计R6技术架构，完成感知OneModel、DLP 障碍物避让，将算法推理耗时由500ms优化至200ms，盲区预制动、道路施工避让、近距离弱势交通参与者巡航等高危场景能力，较旧方案提升10倍以上。</li>
-        <li>主导端到端自动驾驶大模型体系建设，完成模型预训练（Pretrain）与微调（SFT）全流程落地，引入千万级CLIP模型完成通用特征预训练，核心感知基础指标翻倍；创新性引入强化学习机制，基于10万级CLIP样本实现智能轨迹纠偏，整车安全性能指标提升3倍，顺利完成多主流车载芯片平台的量产适配落地。</li>
-        <li>搭建完善的算法、工程、产品人才梯队，精细化管控研发流程、持续提升团队人效，打造高效落地的量产研发团队，团队规模70+人。</li>
-    </ul>
-    <iframe src="./career/autodrive.pdf#toolbar=0" width="100%" height="600" frameborder="0">自动驾驶分享</iframe>
+<h2>核心研究方向</h2>
+<ul>
+<li>自动驾驶：城市NOA、Object Detection、Occupancy 、Lane Detection、Deep Learning Planning、AI Infra、数据产线、交付产线</li>
+<li>具身智能：人形机器人、SLAM、VSLAM、全身运动控制、VLA/WAM、Agentic OS、ROS2、数据产线、摇操系统、Flutter</li>
+<li>技术管理：AI架构升级、算法工程化、智能系统量产落地、中大型研发团队搭建与效能提升</li>
+</ul>
 
-    <h3>字节跳动-算法工程师</h3>
-    <p>负责搜索推荐核心相关性体系搭建与迭代，主导底层NLP模块自研优化；搭建并迭代BERT深度相关性模型，持续优化CTR、CVR预估模型，全方位升级搜索召回、排序核心链路能力，有效提升全域搜索匹配精度与用户转化效果，支撑业务规模化增长。</p>
-    <ul>
-        <li>主导Query分析构建，支持IBWS分词、纠错、改写、Term重要性和Term紧密度</li>
-        <li>参与基于Bert的深度匹配模型，与百度Side By Side，优势占比 +20% </li>
-        <li>参与广告CTR/CVR/DeepCVR模型的迭代和广告投放系统的构建</li>
-    </ul>
-
-    <iframe src="./career/bytedancesearch.pdf#toolbar=0" width="100%" height="600" frameborder="0">自动驾驶分享</iframe>
-
-    <h2>核心研究方向</h2>
-    <ul>
-        <li>自动驾驶：城市NOA、Object Detection、Occupancy 、Lane Detection、Deep Learning Planning、AI Infra、数据产线、交付产线</li>
-        <li>具身智能：人形机器人、SLAM、VSLAM、全身运动控制、VLA/WAM、Agentic OS、ROS2、数据产线、摇操系统、Flutter</li>
-        <li>技术管理：AI架构升级、算法工程化、智能系统量产落地、中大型研发团队搭建与效能提升</li>
-    </ul>
-
-    <h2>联系方式</h2>
-    <p>邮箱：bytedancerdjd@163.com</p>
-    <p>GitHub：<a href="https://github.com/ddod-jim" target="_blank">github.com/ddod-jim</a></p>
-
+<h2>联系方式</h2>
+<p>邮箱：bytedancerdjd@163.com</p>
+<p>GitHub：<a href="https://github.com/ddod-jim" target="_blank">github.com/ddod-jim</a></p>
 </body>
 </html>
